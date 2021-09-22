@@ -1,2 +1,4 @@
-Simple web-scraping using selenium, followed by updating ms access table
- 
+## Web scraping side projects  
+
+  1. scrape using selenium
+  2. scrape Reddit for images
