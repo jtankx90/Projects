@@ -57,7 +57,7 @@ finaloutput = pd.concat(finaloutput) #concat all tables into 1
    
 
  sql = "SELECT * from tbl_Public_Holidays"
- conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ='+r'C:\Users\joetan\Desktop\Risk Datamart.accdb',autocommit=True)
+ conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ='+r'C:\Users\joetan\Desktop\db.accdb',autocommit=True)
  cursor = conn.cursor()
  excel_results = cursor.execute(sql).fetchall()
 
